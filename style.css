@@ -1,0 +1,44 @@
+.text-color {
+  background-color: cyan;
+  color: white;
+}
+.footer-padding {
+  margin: 0 10px;
+  font-size: 40px;
+}
+@media only screen and (max-width: 576px) {
+  .sm-width h2 {
+    font-size: 50%;
+  }
+  .sm-width p {
+    font-size: 30%;
+  }
+  .sm-width a {
+    font-size: 30%;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+  }
+
+  .sm-width {
+    width: auto;
+    height: 70%;
+  }
+
+  .b-sm-device {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+  }
+  .b-sm-device div > img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .b-sm-device div {
+    padding: 0;
+    margin: 0;
+  }
+  .image-width img {
+    width: 100%;
+  }
+}
